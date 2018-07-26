@@ -4,7 +4,6 @@ import HtmlWebpackPlugin from 'html-webpack-plugin';
 export default {
     mode: 'development',
     devtool: 'eval-cheap-module-source-map',
-    //noInfo: false,
     entry:[
         path.resolve(__dirname, 'src/index.js')
     ],
